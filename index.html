@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALLIMS</title>
 
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="upgrade-insecure-requests"
-    />
+    /> -->
 
     <link
       rel="icon"
@@ -57,10 +57,16 @@
     </style>
   </head>
   <body>
-    <iframe
+    <!-- <iframe
       id="allims_browser"
       src="http://allims.dyndns.info:5000/"
       frameborder="0"
-    ></iframe>
+    ></iframe> -->
+
+    <embed
+      id="allims_browser"
+      src="http://allims.dyndns.info:5000/"
+      type="text/html"
+    />
   </body>
 </html>
