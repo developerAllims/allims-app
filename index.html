@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALLIMS</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://allims-files.s3.sa-east-1.amazonaws.com/front/allims_icon_16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="24x24"
+      href="https://allims-files.s3.sa-east-1.amazonaws.com/front/allims_icon_24.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://allims-files.s3.sa-east-1.amazonaws.com/front/allims_icon_32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="https://allims-files.s3.sa-east-1.amazonaws.com/front/allims_icon_64.png"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      :root {
+        height: 100vh;
+        width: 100vw;
+        font-size: 10px;
+      }
+
+      #allims_browser {
+        height: 100vh;
+        width: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      id="allims_browser"
+      src="http://allims.dyndns.info:5000/"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
